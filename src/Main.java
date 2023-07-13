@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Dictionary Dictionary = new Dictionary("D:\\Projects\\Hangman\\russian_nouns.txt");
+        Dictionary Dictionary = new Dictionary("./russian_nouns.txt");
 
         System.out.println("Hi");
         while(true){                                                
@@ -21,7 +21,7 @@ public class Main {
                     currentGame.start();
                     break;
                 case ("exit"):
-                    System.out.println("Bye");
+                    System.out.println("Bye(");
                     System.exit(0);
                     break;
                 default:

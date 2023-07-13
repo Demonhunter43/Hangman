@@ -46,7 +46,7 @@ public class Game {
         while (getMistakesCounter() < mistakesMax) {
             if (! (new String(outputWord).contains("_")) ) {
                 System.out.println("You won!");
-                System.out.printf("The word was: %s", getHiddenWord());
+                System.out.printf("The word was: %s\n", getHiddenWord());
                 break;
             }
             letter = scanner.nextLine();
